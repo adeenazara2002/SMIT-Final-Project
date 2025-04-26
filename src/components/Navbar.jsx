@@ -63,6 +63,12 @@ const Navbar = () => {
              <img className="h-4 rotate-180" src={assets.dropdown_icon} alt=""></img>
              <p>Back</p>
           </div>
+          {/* NavLink */}
+          <NavLink to='/'>HOME</NavLink>
+          <NavLink to='/collection'>COLLECTION</NavLink>
+          <NavLink to='/about'>ABOUT</NavLink>
+          <NavLink to='/contact'>CONTACT</NavLink>
+
         </div>
       </div>
     </div>
